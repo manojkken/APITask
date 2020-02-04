@@ -1,0 +1,23 @@
+2020-02-03 17:33:27,188 [DEBUG]: Starting preparations before tests
+2020-02-03 17:33:27,188 [DEBUG]: ========== Start test: test_get_invalid_user ==========
+2020-02-03 17:33:27,188 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/51
+2020-02-03 17:33:27,344 [DEBUG]: Got response: status code 404 {}
+2020-02-03 17:33:27,344 [DEBUG]: ========== Finish test: test_get_invalid_user ==========
+2020-02-03 17:33:27,344 [DEBUG]: ========== Start test: test_get_single_user ==========
+2020-02-03 17:33:27,345 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/1
+2020-02-03 17:33:27,698 [DEBUG]: Got response: status code 200 {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"}}
+2020-02-03 17:33:27,699 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/2
+2020-02-03 17:33:27,819 [DEBUG]: Got response: status code 200 {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}
+2020-02-03 17:33:27,819 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/3
+2020-02-03 17:33:28,132 [DEBUG]: Got response: status code 200 {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}}
+2020-02-03 17:33:28,133 [DEBUG]: ========== Finish test: test_get_single_user ==========
+2020-02-03 17:33:28,133 [DEBUG]: ========== Start test: test_get_users ==========
+2020-02-03 17:33:28,133 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users
+2020-02-03 17:33:28,264 [DEBUG]: Got response: status code 200 {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}]}
+2020-02-03 17:33:28,264 [DEBUG]: ========== Finish test: test_get_users ==========
+2020-02-03 17:33:28,264 [DEBUG]: Starting cleanup_after_tests

@@ -1,0 +1,8 @@
+2020-02-03 17:33:22,516 [DEBUG]: Starting preparations before tests
+2020-02-03 17:33:22,517 [DEBUG]: ========== Start test: test_create_user ==========
+2020-02-03 17:33:22,517 [DEBUG]: Sending post request: 
+ url = https://reqres.in/api/users
+ data = {"name": "morpheus", "job": "leader"}
+2020-02-03 17:33:25,832 [DEBUG]: Got response: status code 201 {"id":"311","createdAt":"2020-02-03T16:33:25.817Z"}
+2020-02-03 17:33:25,833 [DEBUG]: ========== Finish test: test_create_user ==========
+2020-02-03 17:33:25,833 [DEBUG]: Starting cleanup_after_tests

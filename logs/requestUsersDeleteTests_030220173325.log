@@ -1,0 +1,13 @@
+2020-02-03 17:33:25,834 [DEBUG]: Starting preparations before tests
+2020-02-03 17:33:25,834 [DEBUG]: ========== Start test: test_delete_user ==========
+2020-02-03 17:33:25,834 [DEBUG]: Sending delete request: 
+ url = https://reqres.in/api/users/1
+2020-02-03 17:33:26,179 [DEBUG]: Got response: status code 204 
+2020-02-03 17:33:26,179 [DEBUG]: Sending delete request: 
+ url = https://reqres.in/api/users/2
+2020-02-03 17:33:26,365 [DEBUG]: Got response: status code 204 
+2020-02-03 17:33:26,365 [DEBUG]: Sending delete request: 
+ url = https://reqres.in/api/users/3
+2020-02-03 17:33:26,717 [DEBUG]: Got response: status code 204 
+2020-02-03 17:33:26,717 [DEBUG]: ========== Finish test: test_delete_user ==========
+2020-02-03 17:33:26,717 [DEBUG]: Starting cleanup_after_tests

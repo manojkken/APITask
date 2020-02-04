@@ -1,0 +1,16 @@
+2020-02-03 17:33:26,718 [DEBUG]: Starting preparations before tests
+2020-02-03 17:33:26,719 [DEBUG]: ========== Start test: test_update_user ==========
+2020-02-03 17:33:26,719 [DEBUG]: Sending put request: 
+ url = https://reqres.in/api/users/1
+ data = {"name": "morpheus", "job": "leader"}
+2020-02-03 17:33:26,884 [DEBUG]: Got response: status code 200 {"updatedAt":"2020-02-03T16:33:26.858Z"}
+2020-02-03 17:33:26,884 [DEBUG]: Sending put request: 
+ url = https://reqres.in/api/users/2
+ data = {"name": "morpheus", "job": "leader"}
+2020-02-03 17:33:27,044 [DEBUG]: Got response: status code 200 {"updatedAt":"2020-02-03T16:33:27.013Z"}
+2020-02-03 17:33:27,044 [DEBUG]: Sending put request: 
+ url = https://reqres.in/api/users/3
+ data = {"name": "morpheus", "job": "leader"}
+2020-02-03 17:33:27,186 [DEBUG]: Got response: status code 200 {"updatedAt":"2020-02-03T16:33:27.173Z"}
+2020-02-03 17:33:27,186 [DEBUG]: ========== Finish test: test_update_user ==========
+2020-02-03 17:33:27,187 [DEBUG]: Starting cleanup_after_tests
